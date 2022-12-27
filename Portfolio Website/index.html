@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a style="color: white;" class="navbar-brand" href="#">Portfo<span>lio.</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <hr>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link" href="#qualification">Qualification</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#contact">Contact Me</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+            <div class="intro" id="home">
+                <div class="row">
+                    <div id="name" class="col-lg-4 col-md-4 col-sm-12">
+                        <p class="introp">Hello, my name is</p>
+                        <p class="introp">Uzair Mirza</p>
+                        <p class="introp">And I'm a <span class="typing">Web Developer</span></p>
+                        <button type="button" class="btn btn-lg hire">Hire Me</button>
+                        <a href="#" style="color:rgb(125, 125, 236)" type="button" class="btn btn-lg cv">Get CV</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 img">
+                        <img class="introimg" src="images/banner-image.png">
+                    </div>
+                </div>
+            </div>
+     
+
+       <div class="about" id="about">
+           <p class="aboutme">About Me</p>
+           
+            <p class="whoiam"><span class="line1">who i am</span></p>
+
+
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img class="profilepic" src="images/IMG_20210313_205428_419_3.jpg">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mydetail">
+                <h3>I'm <span style="color: rgb(125, 125, 236);">Uzair Mirza</span> and i am a <span style="color: rgb(125, 125, 236);">Web Developer.</span></h3>
+                <p class="info">I am a developer with a passion of learning. My first foray into programming was when i was
+                    just 15 years old, wanting to build my own websites or web apps. Since then i have made couple of websites etc.
+                    I spend most of my time researching how to make learning to code fun and concepts easy to understand.
+                </p>
+                <a href="#" class="download">Download CV</a>
+            </div>
+            </div>
+
+
+            <div class="skills" id="skills">
+                <p class="myskills">My skills</p>
+                <p class="whatiknow"><span class="line2">what i know</span></p>
+
+                <div class="row creative">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h3 class="headingskills">My creative skills and experience: </h3>
+                        <p class="typeskills">I have an experience in HTML, CSS, Javascript, PHP, MySQL, C++, Bootstrap.
+                            My next target is to learn JS frameworks like React JS. Also got Analytical, Testing And
+                            Debugging skills as well. I also have a little knowledge about Search engine optimization and Back-end basics.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-sm-12 bars">
+                        <p style="color: white">HTML <span style="color: white; margin-left: 60px;">95%</span></p>
+                        <progress id="file" value="95" max="100"> </progress>
+                        <p style="color: white">CSS<span style="color: white; margin-left: 85px;">85%</span></p>
+                        <progress id="file" value="85" max="100"> </progress>
+                        <p style="color: white">Javascript<span style="color: white; margin-left: 60px;">75%</span></p>
+                        <progress id="file" value="75" max="100"> </progress>
+                        <p style="color: white">Bootstrap<span style="color: white; margin-left: 60px;">90%</span></p>
+                        <progress id="file" value="90" max="100"> </progress>
+                        <p style="color: white">PHP<span style="color: white; margin-left: 85px;">70%</span></p>
+                        <progress id="file" value="70" max="100"> </progress>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container qualification" id="qualification">
+                <p class="myqualification">My qualification</p>
+                <p class="whatistudy"><span class="line3">what i study</span></p>
+                
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                      <h4>Education</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">The University Of Lahore</li>
+                      <li class="list-group-item">Bachelors in Computer Science</li>
+                      <li class="list-group-item">3.41  CGPA</li>
+                      
+                    </ul>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h4>Languages</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">English</li>
+                      <li class="list-group-item">Urdu</li>
+                      <li class="list-group-item">Punjabi</li>
+                    </ul>
+                  </div>
+
+                  <div class="card thirdcard" style="width: 18rem;">
+                    <div class="card-header">
+                        <h4>Interest</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Web Design and Development</li>
+                      <li class="list-group-item">Programming</li>
+                      <li class="list-group-item">Music</li>
+                    </ul>
+                  </div>
+            </div>
+            
+             <div class="container-fluid project">
+                <p class="myprojects">My Projects</p>
+                <p class="whatimade"><span class="line4">what i made</span></p>
+
+            <div class="container row projectcontainer" id="projects">
+                <div class="col-lg-6">
+                    <div class="card projectcard">
+                        <div class="card-header">
+                         <h4 style="color:rgb(125, 125, 236); margin-right: 210px">Projects that i made:</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item item">1. <span class="projectspace"></span> Blood Bank Management System (FYP)</li>
+                          <li class="list-group-item item">2. <span class="projectspace"></span>Notes App</li>
+                          <li class="list-group-item item">3. <span class="projectspace"></span>Simon Game </li>
+                          <li class="list-group-item item">4. <span class="projectspace"></span>Dice roll game</li>
+                          <li class="list-group-item item">5. <span class="projectspace"></span>Drum Kit </li>
+                          <li class="list-group-item item">6. <span class="projectspace"></span>Tindog web design </li>
+                          <li class="list-group-item item">7. <span class="projectspace"></span>Portfolio Website </li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="aboutus" src="images/about-us.png">
+                </div>
+
+                
+            </div>
+                
+            </div>
+             
+       <div class="container contact" id="contact">
+        <p class="mycontacts">Contact Me</p>
+        <p class="getintouch"><span class="line5">get in touch</span></p>
+
+        <div class="container row">
+            <div class="col-lg-6">
+                <div class="card detailcard" style="width: 25rem;">
+                    <div class="card-header">
+                      <h3>Details</h3>
+                    </div>
+                    <ul class="list-group1 list-group-flush">
+                      <li class="list-group-item item2"><i style="margin-right: 10px" class="fas fa-phone"></i>Phone: <span style="margin-right: 20px"></span>+923217758499</li>
+                      <li class="list-group-item item2"><i style="margin-right: 10px" class="fas fa-envelope"></i>Email: <span style="margin-right: 25px"></span>uzairmirza90@gmail.com</li>
+                      <li class="list-group-item item2"><i style="margin-right: 10px" class="fas fa-calendar-week"></i>D.O.B: <span style="margin-right: 30px"></span>02/01/1999</li>
+                      <li class="list-group-item item2"><i style="margin-right: 10px" class="fas fa-address-book"></i>Address: <span style="margin-right: 9px"></span>Lahore, Pakistan</li>
+                    </ul>
+                  </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card detailcard socialcard">
+                    <div class="card-header">
+                      <h3>Social Media</h3>
+                    </div>
+                    <ul class="list-group1 list-group-flush">
+                      <li style="text-align: center" class="list-group-item item2"><i style="margin-right: 10px" class="fab fa-linkedin"></i>Linkedin: <span style="margin-right: 20px"></span>https://www.linkedin.com/in/uzair-mirza-24689588</li>
+                      <li class="list-group-item item2"><i style="margin-right: 10px" class="fab fa-instagram"></i>Instagram: <span style="margin-right: 25px"></span>uzairmirzaaa</li>
+                      <li class="list-group-item item2"><i style="margin-right: 10px" class="fab fa-github"></i>Github: <span style="margin-right: 30px"></span>https://github.com/uzairmirza90</li>
+                      
+                    </ul>
+                  </div>
+            </div>
+
+        </div>
+        
+       
+    </div>
+   
+    <hr style="width: 80%; margin-top: 50px">
+    
+    
+    <div class="container message">
+        <form name="myForm" action="index.html" onsubmit="return validateForm()">
+            <h3 style="margin-bottom: 50px; font-weight: 700;">Message:</h3>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Name: </label>
+                <input type="name" class="form-control" id="inputEmail4" placeholder="Enter name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Email:</label>
+                <input type="email" class="form-control" id="inputPassword4" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Subject:</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Enter subject">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Message:</label>
+                <textarea id="textarea" rows="4" cols="90"></textarea>
+              </div>
+           
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary msg">Send Message</button>
+              </div>
+
+              <div class="form-group">
+                <a href="mailto:uzairmirza90@gmail.com" type="submit" class="btn btn-primary msg">Send Email</a>
+              </div>
+            
+          </form>
+    </div>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="footer">
+        <div class="containerlast">
+            <p class="myfooter">Created By <span style="color:rgb(125, 125, 236)">Uzair Mirza</span> | &copy; 2021 All rights reserved.</p>
+        </div>
+       
+    </div>
+       </div>
+
+      
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+
+.navbar{
+    background: rgb(125, 125, 236);
+    padding: 3px 0 3px 0;
+    position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.navbar-brand{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+span{
+    color: rgb(17, 17, 17);
+}
+a{
+    font-weight: 700;
+    
+}
+
+.nav-link, .navbar-nav{
+    margin-right: 30px;
+}
+
+a:hover{
+    color: rgb(17, 17, 17) !important;
+}
+@media screen and (max-width:1000px){
+    .nav-link{
+        text-align: center;
+    }
+
+    button{
+        margin-right: 20px;
+    }
+   
+}
+
+
+
+#name{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.intro{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(17, 17, 17);
+    padding: 90px 0 90px 0;
+}
+
+
+.introp{
+    color: white;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.introp:nth-child(2){
+    font-size: 60px;
+    color:rgb(125, 125, 236);
+    font-weight: bolder;
+}
+
+.introimg{
+    width: 62%;
+    margin-left: 250px;
+    
+}
+
+.about{
+    height: 90vh;
+}
+
+.typing{
+    color:rgb(125, 125, 236);
+    font-weight: 700;
+}
+
+.btn{
+    background-color:rgb(125, 125, 236);
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 20px;
+    width: 30%;
+    margin-top: 20px;
+}
+.hire:hover{
+    background-color:rgb(17, 17, 17);
+    border: 1px solid rgb(125, 125, 236);
+    color:rgb(125, 125, 236);
+}
+.cv{
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(125, 125, 236);
+    color:rgb(125, 125, 236);
+}
+.cv:hover{
+    background-color:rgb(125, 125, 236);
+}
+@media screen and (max-width: 1000px){
+    .intro{
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    
+    .introp{
+        font-size: 30px;
+    }
+
+    .introp:nth-child(2){
+        font-size: 30px;
+    }
+
+    #name{
+        margin-left: 80px;
+        margin-top: 0;
+    }
+
+    
+    
+   .btn{
+       font-size: 20px;
+       width: 80%;
+   }
+  
+}
+
+@media screen and (max-width: 800px){
+    .introp{
+        font-size: 35px;
+    }
+
+    #name{
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .introimg{
+        display: none;
+    }
+    .btn{
+        width: 50%;
+    }
+}
+
+
+
+.about{
+    text-align: center;
+}
+
+.aboutme{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+
+.line1{
+    color:rgb(125, 125, 236);
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+.whoiam{
+    background-color: rgb(17, 17, 17);
+    line-height: 0.1em;
+    margin: 0 90px 0 90px;
+}
+
+.row{
+    margin-top: 80px;
+    margin-right: 100px;
+    
+}
+.profilepic{
+    width: 50%;
+    border-radius: 15%;
+}
+
+.mydetail{
+    margin-top: 1px;
+    margin-left: 90px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    
+}
+
+.info{
+    margin-top: 40px;
+
+}
+
+.download{
+   background-color:rgb(125, 125, 236);
+   color: white;
+   border-radius: 5px;
+   padding: 8px;
+}
+
+@media screen and (max-width: 1000px){
+    .profilepic{
+        margin-left: 100px;
+        width: 50%;
+        margin-bottom: 70px;
+        
+    }
+    .mydetail{
+        margin-top: 0;
+        word-spacing: 0;
+        margin-left: 70px;
+    }
+}
+
+.skills{
+    text-align: center;
+    background-color:rgb(17, 17, 17);
+    margin-top: 100px;
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.creative{
+    margin-left: 50px;
+}
+.myskills{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+    color: white;
+    padding-top: 60px;
+}
+
+
+.line2{
+    color:rgb(125, 125, 236);
+    font-size: 22px;
+    font-weight: 600;
+    background-color:rgb(17, 17, 17);
+    padding: 0 10px 0 10px;
+}
+
+.whatiknow{
+    background-color:white;
+    line-height: 0.1em;
+    margin: 0 90px 0 90px;
+}
+.typeskills{
+    color: white;
+
+}
+.headingskills{
+    color:rgb(125, 125, 236);
+}
+.typeskills{
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    .skills{
+        height: 190vh;
+    }
+    .headingskills{
+        margin-left: 60px;
+    }
+
+    .bars{
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+}
+
+
+
+.qualification{
+    text-align: center;
+    height: 65vh;
+
+}
+
+.myqualification{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+
+.line3{
+    color:rgb(125, 125, 236);
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+.whatistudy{
+    background-color: rgb(17, 17, 17);
+    line-height: 0.1em;
+    margin: 0 90px 0 90px;
+}
+
+
+.card{
+    display: inline-block;
+    margin-top: 70px;
+    border: 3px solid rgb(125, 125, 236);
+    margin-right: 20px;
+    border-radius: 9px;
+}
+
+.list-group-item{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px){
+    .qualification{
+        margin-bottom: 600px;
+    }
+}
+
+
+.project{
+    text-align: center;
+    background-color:rgb(17, 17, 17);
+    margin-top: 100px;
+    height: 120vh;
+    width: 100%;
+    
+    
+}
+
+.myprojects{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+    color: white;
+    padding-top: 60px;
+}
+
+
+.line4{
+    color:rgb(125, 125, 236);
+    font-size: 22px;
+    font-weight: 600;
+    background-color:rgb(17, 17, 17);
+    padding: 0 10px 0 10px;
+}
+
+.whatimade{
+    background-color:white;
+    line-height: 0.1em;
+    margin: 0 90px 0 90px;
+}
+
+.projectcontainer{
+    margin: auto;
+}
+.aboutus{
+    width: 80%;
+    float: right;
+    margin-top: 100px;
+}
+
+.projectcard{
+    background-color: rgb(17, 17, 17);
+    border: none;
+    width: 30rem; 
+}
+
+.projectspace{
+    margin-right: 20px;
+}
+.item{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: left;
+}
+.socialcard{
+    width: 32rem; height: 290px;
+}
+@media screen and (max-width: 1000px){
+    .project{
+        height: 120vh;
+    }
+
+    .aboutus{
+        display: none;
+    }
+    .socialcard{
+        width: 400px;
+        height: 50vh;
+    }
+}
+
+
+.contact{
+    text-align: center;
+    height: 65vh;
+
+}
+
+.mycontacts{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+
+.line5{
+    color:rgb(125, 125, 236);
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+.item2{
+    font-size: 18px;
+}
+
+.list-group1{
+    text-align: left;
+}
+
+.spaces{
+    text-align: left;
+}
+.getintouch{
+    background-color: rgb(17, 17, 17);
+    line-height: 0.1em;
+    margin: 0 90px 0 90px;
+}
+
+.detailcard{
+    margin: auto;
+}
+
+label{
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+.form-group{
+    text-align: left;
+}
+.send{
+    width: 170px;
+    float: left;
+}
+
+.footer{
+    background: rgb(17, 17, 17);
+    height: 6vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.myfooter{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    .footer{
+        margin-top: 520px;
+    }
+
+    .form-row{
+        margin-top: 40px;
+    }
+    .socialcard{
+        margin-top: 40px;
+    }
+}
+
+input[type=text], input[type=name], input[type=email], textarea{
+    border: 2px solid rgb(125, 125, 236);
+}
+.message{
+    margin-top: 30px;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+
+@media screen and (max-width: 1000px){
+
+    .message{
+        margin-top: 350px;
+        width: 350px;
+        margin-right: 300px;
+        text-align: center;
+        height: 40vh;
+    }
+
+    textarea{
+        width: 400px;
+    }
+}
